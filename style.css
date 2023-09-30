@@ -1,0 +1,43 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+background-color: rgb(9, 184, 211);
+padding: 1;
+
+
+}
+.menu ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+ul li
+{
+    padding: 10;
+    font-size: 20;
+    margin: 10;
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover
+{
+background-color: rgb(22, 86, 138);
+color: black;
+transition: 1s;
+padding: 10;
+border-radius: 25px;
+}
+img{
+    position: relative;
+    top: -64;
+}
