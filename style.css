@@ -3,41 +3,52 @@
     padding: 0;
     margin: 0;
 }
-
 header
 {
-background-color: rgb(9, 184, 211);
-padding: 1;
-
-
+background-color: rgb(236, 52, 52);
+padding:20;
+}
+.img
+{
+position: relative;
+top: -70;
 }
 .menu ul
 {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end;
+
     
 }
 ul li
+
 {
-    padding: 10;
+    margin: 12;
     font-size: 20;
-    margin: 10;
 }
 ul li a
 {
-    text-decoration: none;
-    color: white;
+cursor: pointer;
+text-decoration: none;
+color: white;
 }
 ul li a:hover
 {
-background-color: rgb(22, 86, 138);
-color: black;
+background-color: rgb(169, 40, 40);
+padding: 20px;
+border-radius: 50px;
 transition: 1s;
-padding: 10;
-border-radius: 25px;
+color: black;
 }
-img{
+
+.video
+{
+    text-align: right;
+    height: 200px;
+}
+.audio
+{
     position: relative;
-    top: -64;
+    top: -150;
 }
