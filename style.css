@@ -1,54 +1,43 @@
 *
 {
-    padding: 0;
+    padding:0;
     margin: 0;
 }
 header
 {
-background-color: rgb(236, 52, 52);
-padding:20;
+    background-color: aqua;
+    
+    
 }
 .img
 {
 position: relative;
-top: -70;
+top: -65;
 }
 .menu ul
 {
-    list-style: none;
-    display: flex;
-    justify-content:flex-end;
-
+list-style: none;
+padding: 10;
+justify-content: flex-end;
+display: flex;
+}
+.menu ul li
+{
+    font-size: 23;
+    margin:15 ;
     
 }
-ul li
 
+.menu ul li a
 {
-    margin: 12;
-    font-size: 20;
+    text-decoration: none;
+    
 }
-ul li a
+.menu ul li a:hover
 {
-cursor: pointer;
-text-decoration: none;
-color: white;
-}
-ul li a:hover
-{
-background-color: rgb(169, 40, 40);
-padding: 20px;
-border-radius: 50px;
-transition: 1s;
-color: black;
-}
-
-.video
-{
-    text-align: right;
-    height: 200px;
-}
-.audio
-{
-    position: relative;
-    top: -150;
+    background-color: rgb(16, 113, 113);
+    color:white;
+    padding: 10;
+    border-radius: 50px;
+    transition: 1s;
 }
