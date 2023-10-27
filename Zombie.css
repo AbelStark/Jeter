@@ -125,11 +125,12 @@ body
     position: absolute;
     height: 100px;
     width: 140px;
-    top: -50px;
+    top:  -50px;
     right:-20px ;
     background: var(--background);
     border-radius:50%;
-    overflow:hidden;
+   overflow: hidden ;
+    
 
 }
 .head:hover .brain:before

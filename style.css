@@ -13,6 +13,8 @@ header
 {
 position: relative;
 top: -65;
+background-color: green;
+border-radius: 50px 20px;
 }
 .menu ul
 {

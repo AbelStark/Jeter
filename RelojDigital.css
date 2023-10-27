@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+ background-color: black;
+ min-height: 100vh;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+.clock{
+    color: #17d4fe;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
